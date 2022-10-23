@@ -2,8 +2,10 @@
     margin: 0;
     border: 0;
     padding: 0;
-    background-color: white;
     font-family: 'Nunito', sans-serif;
+}
+body{
+    background-color: white;
 }
 a{
     text-decoration: none;
@@ -67,6 +69,25 @@ nav a{
 nav .fa-solid{
     display: none;
 }
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(14, 18, 42);
+    color: white;
+}
+.bottom{
+    padding: 10px;
+}
+
+.bottom a:hover{
+    color: rgb(205, 159, 44);
+}
+footer a{
+    color: white;
+    padding: 10px;
+}
+
 @media(max-width:1100px) {
     .top-bar{
         font-size: 50%;
@@ -99,6 +120,7 @@ nav .fa-solid{
     nav .fa-bars{
         display: block;
         margin:10px;
+        color: darkblue;
         font-size:22px;
         cursor:pointer;
     }
