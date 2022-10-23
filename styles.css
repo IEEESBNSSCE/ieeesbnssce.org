@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.top-bar{
+    background-color: darkblue;
+    padding: 0.5%;
+    margin: 0;
+    text-align: center;
+}
+
+.top-bar a{
+    background-color:darkblue;
+    color: white;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 1%;
+    position: relative;
+}
+.join-us{
+    font-weight: 700;
+    padding: 15px 25px;
+    background-color: darkblue;
+    color: white;
+    margin: 0 2%;
+    border-radius: 30px;
+    
+}
+
+nav a{
+    background-color: white;
+    color: black;
+}
+
